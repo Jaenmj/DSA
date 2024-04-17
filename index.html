@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="index2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>  
 </head>
 <body>
     <div id="superior">
@@ -43,8 +45,6 @@
 </div>
     <div id="seccio_3" class="seccio">
 </div>
-    <div id="seccio_4" class="seccio">
-</div>
     <div id="menu">      
             <i id="boto_1" class="fa-solid fa-house"></i>     
             <i id="boto_2" class="fa-solid fa-camera"></i>
@@ -52,6 +52,34 @@
             <i id="boto_4" class="fa-solid fa-map"></i>
             <i class="fa-solid fa-right-from-bracket"></i>
 </div>
-
+<div id="seccio_2" class="seccio">
+    <div id="div_foto">    
+      <img id="foto">
+      <i id="icona_camera" class="fa-solid fa-image"></i> 
+    </div>
+    <div id="div_control">
+        <label for="obturador"> 
+          <i class="fa-solid fa-circle-dot"></i> 
+        </label>
+        <input type="file" accept="image/*" id="obturador" capture="camera" /> 
+        <i id="desa" class="fa-solid fa-check"></i>
+    </div>
+  </div>
+  <canvas id="canvas"></canvas>
+<div id="div_gran">
+  <img id="foto_gran" />
+</div>
+<div id="seccio_3" class="seccio">
+    <div id="llista_titol"> 
+      <i class="fa-solid fa-image"></i> 
+      <i class="fa-solid fa-calendar-days"></i>
+      <i class="fa-solid fa-trash"></i>    
+    </div>
+    <div id="llista_fotos"> 
+    </div>
+  </div>
+    <div id="seccio_4" class="seccio">
+  </div> 
+  </div>
     </body>
 </html>
