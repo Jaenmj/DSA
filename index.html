@@ -28,9 +28,10 @@
     cursor: pointer;
     text-decoration: none;
   }
-</style>  
-</head>
-<body>
+  #map-container .section {
+    display: none;
+  }
+  </style>  
   <div class="container1">
     <a href="favoritos.html" class="toggle-btn">⭐</a>
   </div>
@@ -41,7 +42,59 @@
       <button id="comisarias" onclick="showMap('comisarias')">Comisarías</button>
     </div>
     <button id="back-button" style="display: none;" onclick="goBack()">Atrás</button>
-    <div id="map-container"></div>
+    <div id="map-container">
+      <div id="mecanicos-info" class="section">
+        <h2 align="center">Mecánicos</h2>
+        <p align="center"> <img src=""width="350" height="350"></p>
+        <p align="center"></p>
+        <p align="center">Número:  </p>
+        <p align="center"> <a href="" target="_blank">Ver en Google Maps</a> </p>   
+        <p align="center">Valoració: / 5</p>
+        <p align="center"> <img src=""width="350" height="350"></p>
+        <p align="center"></p>
+        <p align="center">Número:  </p>
+        <p align="center"><a href="" target="_blank">Ver en Google Maps</a> </p>   
+        <p align="center">Valoració: / 5</p>
+        <p align="center"> <img src=""width="350" height="350"></p>
+        <p align="center"></p>
+        <p align="center">Número:  </p>
+        <p align="center"><a href="" target="_blank">Ver en Google Maps</a></p>    
+        <p align="center">Valoració: / 5</p>
+      </div>
+      <div id="hospitales-info" class="section">
+        <h2 align="center">Hospitales</h2>
+      <p align="center"> <img src="Hospital del Mar.png"width="350" height="350"></p>
+      <p align="center">Hospital del Mar</p>
+      <p align="center">Número: 932 48 30 00</p>
+      <p align="center"> <a  href="https://maps.app.goo.gl/Q5osN6WtbNeWLbLz7" target="_blank">Ver en Google Maps</a>  </p>  
+      <p align="center">Valoració: 3,2 / 5</p>
+      <p align="center"> <img src="Hospital Universitari Vall d'Hebron.png"width="350" height="350"></p>      
+      <p align="center">Hospital Universitari Vall d'Hebron</p>
+      <p align="center">Número: 934 89 30 00</p>
+      <p align="center"> <a href="https://maps.app.goo.gl/qencTckkXcFcoNxT6" target="_blank">Ver en Google Maps</a>  </p>  
+      <p align="center">Valoració: 3,8 / 5</p>
+      <p align="center"> <img src="Santa Creu.png" width="350" height="350"></p>      
+      <p align="center">Hospital de la Santa Creu i Sant Pau</p>
+      <p align="center">Número: 932 91 90 00 </p>
+      <p align="center"> <a href="https://maps.app.goo.gl/b3L6yomMoDbTaMK7A" target="_blank">Ver en Google Maps</a>   </p> 
+      <p align="center">Valoració: 3,6/ 5</p>
+      </div>
+      <div id="comisarias-info" class="section">
+        <h2 align="center">Comisarías</h2>
+        <p align="center"> <img src="verneda.png"width="350" height="350"></p>
+        <p align="center">Complejo Policial La Verneda</p>
+        <p align="center">Número: 932 90 37 91</p>
+        <p align="center"> <a href="https://maps.app.goo.gl/VcoNWYmvGZsxQ2rN7" target="_blank">Ver en Google Maps</a> </p>   
+        <p align="center"> <img src="urbana.png"width="350" height="350"></p>
+        <p align="center">Unitat Territorial de la Guàrdia Urbana del Districte de Sant Martí</p>
+        <p align="center">Número: 932 91 50 92</p>
+        <p align="center"><a href="https://maps.app.goo.gl/UVqPgwhCKhH4LheK9" target="_blank">Ver en Google Maps</a></p>    
+        <p align="center"> <img src="besos.png"width="350" height="350"></p>
+        <p align="center">Mossos d'Esquadra - Sant Adrià de Besòs</p>
+        <p align="center">Número: 934 97 72 85 </p>
+        <p align="center"> <a href="https://maps.app.goo.gl/NLiVt8JW82qn6RAD6" target="_blank">Ver en Google Maps</a>  </p>
+    </div>
+    </div>
   </div>
   <script src="sc.js"></script>
 </body>

@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2; /* Cambio el color de fondo del cuerpo a un gris claro */
+    background-color: #e6e6e6; 
   }
   
   header {
-    background-color: purple; /* Cambio el color de fondo del encabezado a morado */
-    color: #ffff99; /* Cambio el color del texto del encabezado a amarillo claro */
+    background-color: purple;
+    color: #e9ec0f;
     text-align: center;
     padding: 20px 0;
     text-size-adjust: 40px;
@@ -18,18 +18,18 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #e6e6e6; /* Cambio el color de fondo del contenedor principal a un morado más claro */
+    background-color: #e6e6e6; 
   }
   
   button {
     margin: 10px;
-    padding: 15px 30px; /* Hago los botones más grandes */
-    font-size: 20px; /* Aumento el tamaño del texto de los botones */
+    padding: 15px 30px; 
+    font-size: 20px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: purple; /* Cambio el color de fondo de los botones a morado */
-    color: #fff; /* Cambio el color del texto de los botones a blanco */
+    background-color: purple; 
+    color: #fff; 
   }
   
   #map-container {
@@ -39,7 +39,7 @@ body {
   }
   
   #back-button {
-    padding: 15px 30px; /* Hago el botón "Atrás" más grande */
+    padding: 15px 30px; 
   }
   .dropdown {
     position: relative;
