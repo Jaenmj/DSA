@@ -7,7 +7,7 @@ function showMap(location) {
   backButton.style.display = "block";
   switch (location) {
     case "mecanicos":
-      mapContainer.innerHTML="hospi"
+      mapContainer.innerHTML=""
       break;
     case "hospitales":
       mapContainer.innerHTML
